@@ -5,7 +5,8 @@
             <input class="new-todo" type="text" placeholder="Add a new task" v-model="newTodo" @keyup.enter="addTodo">
         </header>
         <div class="main">
-          <input type="checkbox" v-model="allDone">
+            <input class="toggle-all" id="toggle-all" type="checkbox" v-model="allDone">
+            <label for="toggle-all">Mark as completed</label>
           <ul class="todo-list">
             <li v-for="todo in filteredTodos" v-bind:key="todo.name" class="todo"  v-bind:class="{ completed: todo.completed }">
               <div class="view">
