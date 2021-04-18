@@ -7,7 +7,7 @@
         <div class="main">
           <input type="checkbox" v-model="allDone">
           <ul class="todo-list">
-            <li v-for="todo in filteredTodos" v-bind:key="todo" class="todo"  v-bind:class="{ completed: todo.completed }">
+            <li v-for="todo in filteredTodos" v-bind:key="todo.name" class="todo"  v-bind:class="{ completed: todo.completed }">
               <div class="view">
                 <input type="checkbox" class="toggle" v-model="todo.completed">
                 <label>
