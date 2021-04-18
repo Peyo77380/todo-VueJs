@@ -1,6 +1,6 @@
 # todos
 
-> Simple Todo vith Vue.js
+> Simple Todo Front end app - with Vue.js
 
 ## Build Setup
 
