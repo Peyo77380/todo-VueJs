@@ -1,6 +1,9 @@
 # todos
 
-> Simple Todo Front end app - with Vue.js
+Simple Todo Front end app - with Vue.js
+I tried to recreate the todo app from TodoMVC using Vue.JS.
+
+No Back end included
 
 ## Build Setup
 
